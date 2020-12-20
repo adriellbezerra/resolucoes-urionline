@@ -1,10 +1,13 @@
+package resolucoes.uri;
+
+
 import java.util.Scanner;
 
 public class TempoJogoComMinutos {
-
-	public static void main(String[] args) {
-		
-		Scanner scan = new Scanner(System.in);
+ 
+    public static void main(String[] args) {
+ 
+        Scanner scan = new Scanner(System.in);
 		
 		int horaInicial = scan.nextInt();
 		int minutoInicial = scan.nextInt();
@@ -28,6 +31,7 @@ public class TempoJogoComMinutos {
 		System.out.printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)", horas, minutos);
 
 		scan.close();
-	}
-
+ 
+    }
+ 
 }
